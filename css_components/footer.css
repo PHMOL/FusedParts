@@ -1,0 +1,32 @@
+/* Footer */
+.bottom-container {
+    text-align: center;
+    padding: 30px;
+    background-color: red;
+    animation-name: footer-color;
+    animation-duration: 20s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes footer-color {
+    0% {
+      background-color: red;
+    }
+  
+    25% {
+      background-color: yellow;
+    }
+  
+    50% {
+      background-color: green;
+    }
+  
+    75% {
+      background-color: blue;
+    }
+  
+    100% {
+      background-color: red;
+    }
+  }
