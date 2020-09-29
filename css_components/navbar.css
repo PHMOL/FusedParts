@@ -1,14 +1,17 @@
 /* Navbar */
-.navbar-lewagon {
+.navbar {
     justify-content: space-between;
     background: white;
+    position: fixed;
+    transition: top 0.4s;
+    width: 100vw;
   }
   
-  .navbar-lewagon .navbar-collapse {
+  .navbar .navbar-collapse {
     flex-grow: 0;
   }
   
-  .navbar-lewagon .navbar-brand img {
+  .navbar .navbar-brand img {
     height: 50px;
   }
   

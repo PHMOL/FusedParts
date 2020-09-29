@@ -27,8 +27,8 @@
 
 <body>
   <!-- Navbar -->
-  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-    <a class="navbar-brand ml-5 my-2" href="index.html">
+  <div class="navbar navbar-expand-sm navbar-light navbar-home" id="navbar">
+    <a class="navbar-brand ml-3 my-2" href="index.html">
       <img src="images/logoFP.png" alt="FusedParts Logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,9 +58,9 @@
   <!-- Banner -->
   <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/The Notorious BIG_2017_100x80cm_Landing.jpg');">
     <div class="container">
-      <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
+      <!-- <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
       <p>Change your life and learn to code at one of our campuses around the world.</p>
-      <a class="btn btn-flat" href="#">Apply now</a>
+      <a class="btn btn-flat" href="#">Apply now</a> -->
     </div>
 
     <section>
@@ -72,9 +72,23 @@
   <!-- Content -->
 
   <div class="container mt-5" id="homepage-info">
-    <h1 class="d-flex justify-content-center">WORK</h1>
+    <h2 class="d-flex justify-content-center font-weight-bold">Welcome to FusedParts</h2>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <img src="images/David Bowie_2016_50x50cm.jpg" style="width: 100%">
+      </div>
+      <div class="col-md-6" style="margin: 50px 0 0 50px">
+        <h3><em>"I don't know where I'm going from here, but I promise it won't be boring"</em></h3>
+        <br>
+        <p>- David Bowie -</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <h2 class="d-flex justify-content-center my-5">WORK</h2>
     <div class="row gallery-home">
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-8">
           <div class="thumbnail">
             <img src="images/In The Wild_2017_160x120cm.jpg" alt="In The Wild" style="width:100%">
             <div class="caption-text">
@@ -82,7 +96,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-8">
           <div class="thumbnail">
             <img src="images/Ali.jpg" alt="Ali" style="width:100%">
             <div class="caption-text">
@@ -90,7 +104,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-8">
           <div class="thumbnail">
             <img src="images/The Shining_2018_100x160cm.png" alt="The Shining" style="width:100%">
             <div class="caption-text">
@@ -99,12 +113,18 @@
           </div>
         </div>
       </div>
-   <!-- Content -->
 
+
+      <button type="button" class="btn btn-outline-dark d-flex justify-content-center btn-gallery" href="gallery.html">View More</button>
+
+   <!-- Content -->
+<hr>
   
     <!-- Video -->
-    <div class="row row-cols-1">
-        <div class="col mb-5" style="margin-top: 80px">
+    <h2 class="d-flex justify-content-center" style="margin-top: 50px">PARI - Making Of</h2>
+
+    <div class="row row-cols-1" style="width: 50vw; margin: 0 auto;">
+        <div class="col mb-5 mt-5">
           <!-- 21:9 aspect ratio -->
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/3nicKWJclC4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -116,7 +136,7 @@
 
   <!-- Footer -->
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.instagram.com/fusedparts/" target="_blank">Instagram</a>
+    <a href="https://www.instagram.com/fusedparts/" target="_blank"><i class="fab fa-instagram fa-2x mb-2"></i></a>
     <p class="copyrightPM">© 2020 Philipp Möller.</p>
   </div>
   <!-- Footer -->
