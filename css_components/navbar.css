@@ -2,9 +2,9 @@
 .navbar {
     justify-content: space-between;
     background: white;
-    position: fixed;
     transition: top 0.4s;
     width: 100vw;
+    z-index: 3;
   }
   
   .navbar .navbar-collapse {

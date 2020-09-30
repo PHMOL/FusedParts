@@ -2,6 +2,10 @@
     font-family: Montserrat;
 }
 
+p {
+    color: black;
+}
+
 .gallery-home img {
     height: 500px;
     }
