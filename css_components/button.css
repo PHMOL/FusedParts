@@ -1,8 +1,8 @@
-.btn-gallery {
+.btn {
     border: 2px solid; 
     margin: 20px auto 0;   
 }
 
-.btn-gallery:hover {
+.btn:hover {
     text-decoration: none;
 }

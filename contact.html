@@ -38,7 +38,7 @@
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-5">
-        <li class="nav-item active mr-5">
+        <li class="nav-item mr-5">
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item mr-5">
@@ -47,7 +47,7 @@
         <li class="nav-item mr-5">
           <a class="nav-link" href="about.html">About</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
@@ -121,7 +121,9 @@
           </form>
 
           <div class="text-center text-md-left">
-              <a class="btn btn-outline-dark btn-gallery" onclick="document.getElementById('contact-form').submit();">Send</a>
+            <button type="button" class="btn btn-outline-dark btn-contact" onclick="document.getElementById('contact-form').submit();">Send</button>
+
+            <!-- <a class="btn btn-outline-dark btn-contact" onclick="document.getElementById('contact-form').submit();">Send</a> -->
           </div>
           <div class="status"></div>
         </div>

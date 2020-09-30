@@ -5,6 +5,7 @@
     transition: top 0.4s;
     width: 100vw;
     z-index: 3;
+    border-bottom: 1px solid #bebebe;
   }
   
   .navbar .navbar-collapse {
