@@ -1,9 +1,11 @@
 /* Banner */
 .banner {
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat:no-repeat;
     padding: 150px 0;
-    height: 100vh;
+    width: 100vw;
+    height: 90vh;
   }
   
   .banner h1 {
