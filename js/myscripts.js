@@ -8,3 +8,10 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+
+/* Loader */
+setTimeout(function(){
+  $("#loader").fadeOut(200);
+}, 4500);
+ 
