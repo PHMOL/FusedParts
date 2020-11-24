@@ -1,4 +1,54 @@
 
-.contact-wrapper {
-    background-image: linear-gradient(to top, #949495 0%, #dcdddf 52%, #fafafa 100%);
+.contact-text h2, p {
+    color: black;
 }
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    height: 100vh;
+  }
+  
+  .banner h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .banner p {
+    font-size: 20px;
+    color: white;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+
+.contact-wrapper {
+    width: 40%;
+    text-align: center;
+    margin: 10% auto;
+}
+
+  .contact-wrapper a {
+    color: white;
+    font-size: 24px;
+    margin-top: 100px;
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    .contact-wrapper {
+        width: 60%;
+      }
+    .contact-wrapper h1 {
+        font-size: 18px;
+      }
+    .contact-wrapper p {
+      font-size: 16px;
+    }
+    .contact-wrapper a {
+        font-size: 16px;
+      }
+  }
