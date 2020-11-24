@@ -1,11 +1,15 @@
 /* Navbar */
 .navbar {
     justify-content: space-between;
-    background: white;
+    background: #1E1E1E;
     transition: top 0.4s;
-    width: 100vw;
+    width: 100%;
     z-index: 3;
-    border-bottom: 1px solid #bebebe;
+    /* border-bottom: 1px solid #bebebe; */
+  }
+
+  .navbar-brand {
+    margin-left: 30px;
   }
 
   .navbar .navbar-collapse {
@@ -16,3 +20,34 @@
     height: 30px;
   }
   
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+  }
+  
+  .nav-item a::after {
+    position: absolute;
+    content: "";
+    height: .1em;
+    top: 100%;
+    background: currentColor;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    transform: scaleX(0);
+    transition: transform .5s cubic-bezier(.95, .05, .795, .035);
+  }
+  
+  .nav-item a:hover::after {
+    transition-timing-function: cubic-bezier(.19, 1, .22, 1);  
+    transform: scaleX(1);
+  }

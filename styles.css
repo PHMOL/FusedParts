@@ -4,7 +4,7 @@
 @import "css_components/footer.css";
 @import "css_components/button.css";
 @import "css_components/pages/home.css";
-@import "css_components/pages/gallery.css";
+@import "css_components/pages/work.css";
 @import "css_components/pages/about.css";
 @import "css_components/pages/contact.css";
 
@@ -14,3 +14,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  body {
+    background-color: #1E1E1E;
+    color: white;
+  }
+
+  
