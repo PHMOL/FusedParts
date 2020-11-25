@@ -10,8 +10,10 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
+
 /* Loader */
+jQuery.noConflict(); 
 setTimeout(function(){
-  $("#loader").fadeOut(200);
+jQuery("#loader").fadeOut(200);
 }, 4500);
- 
+
